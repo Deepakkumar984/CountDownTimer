@@ -1,0 +1,60 @@
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: url("pexels-pixabay-262367.jpg");
+            background-size: cover;
+            width: 100%;
+        }
+        
+        .headings {
+            color: white;
+            margin: 30px 0px 0px -90px;
+            font-size: 70px;
+            text-align: center;
+            margin-top: 200px;
+        }
+        
+        #timer {
+            margin: 0px 0px 0px 400px;
+            height: 70px;
+            width: 45%;
+            display: flex;
+            color: white;
+            padding: 30px;
+        }
+        
+        #timer div {
+            text-align: center;
+            font-size: x-large;
+            width: 250px;
+        }
+        
+        input {
+            height: 50px;
+            width: 70%;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 5px 15px 5px 15px;
+            font-size: xx-large;
+            text-align: center;
+            color: white;
+        }
+        
+        label {
+            text-align: center;
+        }
+        
+        @media screen and (max-width: 390px) {
+            #timer div,
+            #timer,
+            .headings,
+            label,
+            input,
+            body {
+                width: 100%;
+                /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
