@@ -1,4 +1,16 @@
-let enddate = "Dec 12 , 2022, 10:00:00 PM"
+/**
+    * @description      : 
+    * @author           : al gm store
+    * @group            : 
+    * @created          : 11/03/2023 - 13:03:24
+    * 
+    * MODIFICATION LOG
+    * - Version         : 1.0.0
+    * - Date            : 11/03/2023
+    * - Author          : al gm store
+    * - Modification    : 
+**/
+let enddate = "Dec 12 , 2023, 10:00:00 PM"
 document.getElementById("end-date").innerHTML = enddate
 const input = document.querySelectorAll("input")
 clock = () => {
